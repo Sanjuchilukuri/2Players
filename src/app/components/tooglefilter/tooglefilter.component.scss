@@ -1,0 +1,31 @@
+.wrapper{
+    width: 300px;
+    height: 45px;
+    background-color: #cfcdcdd9;
+    border-radius: 8px;
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    .players-count{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        gap:10px;
+        font-weight: 600;
+        color: #000;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.3s;
+        p{
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+    }
+}
+.active{
+    background-color: #fff;
+}
